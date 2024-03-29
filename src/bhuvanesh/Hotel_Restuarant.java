@@ -59,7 +59,7 @@ public void total() {
 		return tax;
 	}
 
-	public void DecreaseValue (int amount, double percent)
+	public void increaseValue (int amount, double percent)
 	{
 		double taxAmount = givenValuewithAmount(amount,percent);
 		System.out.print("    Tax12%     %");
@@ -86,7 +86,7 @@ public void total() {
 	hr.underline();
 	hr.total();
 	hr.RedeemedValue(1000,0.15);
-	hr.DecreaseValue(1000,0.12);
+	hr.increaseValue(1000,0.12);
 	hr.under_line();
 	hr.aftertax();
 	
