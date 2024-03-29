@@ -17,7 +17,7 @@ else if (hotel.equals("Chennai Hotel")) {
 }
 }
 
-public static int item1=50;
+public static int item1=60;
 public static int item2=10;
 public static int item3=25;
 public static int item4=10;
