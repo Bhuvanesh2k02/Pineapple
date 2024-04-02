@@ -17,22 +17,23 @@ else if (hotel.equals("Chennai Hotel")) {
 }
 }
 
-public static int item1=50;
-public static int item2=10;
-public static int item3=25;
-public static int item4=10;
-public static int item5=35;
+public static int item1=40;
+public static int item2=30;
+public static int item3=15;
+public static int item4=50;
+public static int item5=15;
 
 
 
 public void item1(int dosa) {
 	this.item1=dosa;
+	
 }
 public int item1(){
 	System.out.println();
 	System.out.println("no. "+"Item"+"       "+"Rate");
 	System.out.println();
-	System.out.println("1.  "+"Dosa"+"       "+"$"+item1);
+	System.out.println("1.  "+item1+"       "+"$"+item1);
 	return item1;
 }
 
@@ -104,11 +105,7 @@ public void increaseValue (int amount, double percent)
 	System.out.print("    Tax12%     $");
 	System.out.println(taxAmount);
 }
-/*public double total2(int DiscountAmount,int taxAmount) {
-	int total2= DiscountAmount+taxAmount;
-	System.out.println(total2);
-	return total2;
-}*/
+
 public static void main(String[] args) {
 	Restuarants rt = new Restuarants() ;
 		rt.restuarant("Chennai Hotel","Dinning",true);
@@ -119,7 +116,28 @@ public static void main(String[] args) {
 		rt.item5();
 		rt.decreaseValue(total(),0.15);
 		rt.increaseValue(total1(),0.12);
-		//rt.total2(DiscountAmount, taxAmount);
+		
 }
 }
-
+/*1. tomato delivery app - fake app nu sollanum
+ * 2. zomato delivery app - iruku nu sollanum
+ * 3. chennai restuarant - fake nu sollanum
+ * 4. smoke hub barbique restuarant - 7 food items listout
+ * 5. 1) Dosa : masala dosa, plain dosa, onion dosa, mushroom dosa, paneer dosa.
+ * 6. 2) veg main course : kadai paneer , chilli garlic noodles, veg manshurian
+ * 7. 3) breads : butter naan, plain naan, garlic naan
+ * 8. 4) desserts : choco bun, rasamalai, brownie
+ * 9. 5) tandoori tikka
+ * 10.6) muttan sheek
+ * 11.card payment - switch case
+ * 12. disount
+ * 13. tax
+ * 14. total
+ * 15. create 1 parent class and call 2 child classes or use any inheritance from oops concepts
+ * 16. use if else condition
+ * 17. use try catch condition
+ * 18. use switch case 
+ * 19. use polymorphism from oops concepts
+ * 20. use loop condition
+ * 21. use variables
+ */

@@ -1,7 +1,8 @@
 package bhuvanesh;
 
 public class BasicCondition {
-public static void main(String[] args) {
+	public void comparison(){
+ 
 	int no1 = 30, no2 = 30, no3 = 30;
 	if (no1>no2 && no1>no3) {
 		System.out.println(no1);
@@ -15,6 +16,12 @@ public static void main(String[] args) {
 	else {
 		System.out.println("Try again");
 	}
+	
+}
+
+public static void main(String[] args) {
+	BasicCondition bc = new BasicCondition();
+	bc.comparison();
 	
 }
 }

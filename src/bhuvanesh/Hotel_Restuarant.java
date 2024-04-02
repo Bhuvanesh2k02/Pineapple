@@ -3,6 +3,7 @@ package bhuvanesh;
 
 
 public class Hotel_Restuarant {
+	int amount = 1000;double percent=0.15;
 	public Hotel_Restuarant(String name)
 	{
 		System.out.println("    Item 1 " +name);
@@ -36,10 +37,7 @@ public void underline() {
 	System.out.println("              _______");
 	
 }
-public void total() {
-	System.out.println("    Total      "+"$1000");
-	
-}
+
 	
 	public double giveBackValuewithAmount(int amount,double percentage)
 	{
@@ -47,11 +45,12 @@ public void total() {
 		return discount;
 	}
 
-	public void RedeemedValue (int amount, double percent)
+	public double RedeemedValue (int amount, double percentage)
 	{
-		double DiscountAmount = amount-    giveBackValuewithAmount(amount,percent);
+		double DiscountAmount = amount-    giveBackValuewithAmount(amount,percentage);
 		System.out.print("    Dis15%     $");
 		System.out.println(DiscountAmount);
+		return DiscountAmount;
 	}
 	public double givenValuewithAmount(int amount,double percentage)
 	{
@@ -59,6 +58,13 @@ public void total() {
 		return tax;
 	}
 
+	public void total (int amount, double percent)
+	{
+		double Total = RedeemedValue(amount,percent)+givenValuewithAmount(amount,percent);
+		
+		System.out.println(Total);
+		
+	}
 	public void increaseValue (int amount, double percent)
 	{
 		double taxAmount = givenValuewithAmount(amount,percent);
@@ -67,14 +73,17 @@ public void total() {
 	}
 	public void under_line() {
 		System.out.println("              _______");
-		
-	}
+			}
 	public void aftertax() {
 		System.out.println("    TotalAmt"+"   $970");
 		System.out.println("    aftertax"+"  _______");
+		System.out.println();
+	}
+	public void under_line1() {
+		
+		System.out.println("              _______");
 		
 	}
-	
 	public static void main(String[] args) {
 	System.out.println("     Chennai Hotel");
 	
@@ -84,13 +93,13 @@ public void total() {
 	hr.forthHotel_Restuarant();
 	hr.fiveHotel_Restuarant();
 	hr.underline();
-	hr.total();
+	
 	hr.RedeemedValue(1000,0.15);
 	hr.increaseValue(1000,0.12);
 	hr.under_line();
 	hr.aftertax();
+	hr.total(1,1 );
+	hr.under_line1();
 	
 	}
-	public void RedeemedValue() {
-		
-	}}
+	}
