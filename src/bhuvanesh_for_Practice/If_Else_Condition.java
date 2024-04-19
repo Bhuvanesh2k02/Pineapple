@@ -1,6 +1,6 @@
-package bhuvanesh;
+package bhuvanesh_for_Practice;
 
-public class If_Condition {
+public class If_Else_Condition {
 	int a=6;
 	int b=5;
 	int c=8;
@@ -70,7 +70,7 @@ public void ifcondition3() {
 }	
 	
 	public static void main(String[] args) {
-		If_Condition ic = new If_Condition();
+		If_Else_Condition ic = new If_Else_Condition();
 		ic.ifcondition1();
 		ic.ifcondition2();
 		ic.ifcondition3();

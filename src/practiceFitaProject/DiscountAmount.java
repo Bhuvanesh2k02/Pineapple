@@ -13,7 +13,7 @@ public class DiscountAmount extends TotalAmount{
 	public double Discountamount() {
 		double dis = Total()-Discount1();
 		//System.out.println();
-		System.out.println("Discount Amt : "+dis);
+		System.out.println("Discount Amt : ₹"+dis);
 		return dis;
 	}
 	

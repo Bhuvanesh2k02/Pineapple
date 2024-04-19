@@ -1,4 +1,4 @@
-package bhuvanesh;
+package bhuvanesh_for_Practice;
 
 public class Restuarants {
 public void restuarant(String hotel,String table ,boolean chennai_Hotel) {
@@ -119,9 +119,9 @@ public static void main(String[] args) {
 		
 }
 }
-/*1. tomato delivery app - fake app nu sollanum
- * 2. zomato delivery app - iruku nu sollanum
- * 3. chennai restuarant - fake nu sollanum
+/*1. tomato delivery app - fake app nu sollanum]
+ * 2. zomato delivery app - iruku nu sollanum]
+ * 3. chennai restuarant - fake nu sollanum]
  * 4. smoke hub barbique restuarant - 7 food items listout
  * 5. 1) Dosa : masala dosa, plain dosa, onion dosa, mushroom dosa, paneer dosa.
  * 6. 2) veg main course : kadai paneer , chilli garlic noodles, veg manshurian

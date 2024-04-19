@@ -1,4 +1,4 @@
-package bhuvanesh;
+package bhuvanesh_for_Practice;
 
 public class Hotel {
 int a = 50;

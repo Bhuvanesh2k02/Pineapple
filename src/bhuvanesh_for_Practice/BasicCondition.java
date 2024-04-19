@@ -1,4 +1,4 @@
-package bhuvanesh;
+package bhuvanesh_for_Practice;
 
 public class BasicCondition {
 	public void comparison(){

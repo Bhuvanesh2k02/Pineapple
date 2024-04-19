@@ -9,7 +9,7 @@ public class TotalAmount extends Dosa{
 	}
 	public int Total2() {
 		int a = idle+dosa+grilledchicken+butternaan+rasamalai+PaneerbutterMasala;
-		System.out.println("Total : "+a);
+		System.out.println("Total : ₹"+a);
 		return a;
 	}
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package bhuvanesh;
+package bhuvanesh_for_Practice;
 
-public class Basic_Condition {
+public class if_Condition {
 public static void main(String[] args) {
 	int no1 = 50, no2 = 24, no3 = 0, no4 = 100;
 	if (no1>no4) {

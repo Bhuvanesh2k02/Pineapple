@@ -15,7 +15,7 @@ public class TaxAmount  extends DiscountAmount{
 	{
 		double tax= Discountamount1()*taxpercentage;
 		//System.out.println();
-		System.out.println("Tax Amt : "+tax);
+		System.out.println("Tax Amt : ₹"+tax);
 		return tax;
 	}
 	
@@ -26,7 +26,7 @@ public class TaxAmount  extends DiscountAmount{
 		double tax = Discountamount1() + tax1();
 		
 		//System.out.println();
-		System.out.println("Total Amt : "+tax);
+		System.out.println("Total Amt : ₹"+tax);
 	}
 	
 	public static void main(String[] args) {
