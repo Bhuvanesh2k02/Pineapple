@@ -26,11 +26,11 @@ class Triangle extends Shape implements practiceinterface, Practiceinterface3{
 		}
 	@Override
 	public void interface1() {
-		System.out.println("inter 1");
+		System.out.println("interface 1");
 	}
 	@Override
 	public void interface2() {
-		System.out.println("inter 2");
+		System.out.println("interface 2");
 	}
 	@Override
 	public void interfaceA() {

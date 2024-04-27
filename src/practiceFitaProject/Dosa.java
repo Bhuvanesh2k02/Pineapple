@@ -2,7 +2,7 @@ package practiceFitaProject;
 
 public class Dosa extends Idle{
 
-	static int dosa=10;
+	static int dosa;
 	
 	public int Dosa1(){
 		return dosa;

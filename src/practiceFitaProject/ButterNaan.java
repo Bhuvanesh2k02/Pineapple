@@ -2,7 +2,7 @@ package practiceFitaProject;
 
 public class ButterNaan extends PaneerButterMasala{
 
-	static int butternaan = 30;
+	static int butternaan;
 	
 	public int ButterNaan1() {
 		return butternaan;

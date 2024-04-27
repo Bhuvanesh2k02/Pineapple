@@ -1,7 +1,7 @@
 package practiceFitaProject;
 
 public class GrilledChicken {
-	static int grilledchicken = 60;
+	static int grilledchicken;
 
 	public int GrilledChicken1() {
 		return grilledchicken;

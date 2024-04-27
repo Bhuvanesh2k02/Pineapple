@@ -53,18 +53,18 @@ public class Chennai_Hotel extends TaxAmount{
 
 	public void FoodOrdered () {
 		System.out.println("FoodOrdered :");
-		item1(10);
-		System.out.println("Dosa : ₹" + Dosa1());
-		item2(20);
-		System.out.println("Idle : ₹"+Idle1());
+		item1(50);
+		System.out.println("Dosa : ₹" + dosa);
+		item2(35);
+		System.out.println("Idle : ₹"+idle);
 		item3(30);
-		System.out.println("ButterNaan : ₹"+ButterNaan1());
+		System.out.println("ButterNaan : ₹"+butternaan);
 		item4(40);
-		System.out.println("PaneerbutterMasala : ₹"+PaneerbutterMasala());
+		System.out.println("PaneerbutterMasala : ₹"+PaneerbutterMasala);
 		item5(50);
-		System.out.println("Rasamalai : ₹"+Rasamalai1());
+		System.out.println("Rasamalai : ₹"+rasamalai);
 		item6(60);
-		System.out.println("GrilledChicken : ₹"+GrilledChicken1());
+		System.out.println("GrilledChicken : ₹"+grilledchicken);
 		System.out.println(); 
 	}
 

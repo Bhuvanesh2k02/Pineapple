@@ -2,7 +2,7 @@ package practiceFitaProject;
 
 public class PaneerButterMasala extends Rasamalai{
 
-static int PaneerbutterMasala = 40;
+static int PaneerbutterMasala;
 	
 	public int PaneerbutterMasala() {
 		return PaneerbutterMasala;

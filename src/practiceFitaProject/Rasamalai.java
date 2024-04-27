@@ -1,7 +1,7 @@
 package practiceFitaProject;
 
 public class Rasamalai extends GrilledChicken{
-static int rasamalai = 50;
+static int rasamalai ;
 
 public int Rasamalai1() {
 	return rasamalai;

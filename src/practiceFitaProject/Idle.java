@@ -1,7 +1,7 @@
 package practiceFitaProject;
 
 public class Idle extends ButterNaan {
-	static int idle = 20 ;
+	static int idle;
 	
 	public int Idle1() {
 		return idle;
